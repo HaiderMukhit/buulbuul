@@ -19,7 +19,11 @@
       "style",
       "title"
     ],
-    "classes": null,
+    "classes": [
+      "bg-slate-300",
+      "mt-10",
+      "px-12"
+    ],
     "ids": null
   }
 }
