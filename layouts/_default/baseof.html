@@ -13,6 +13,10 @@
 
 	{{/* styles */}}
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
+
     {{ $options := dict "inlineImports" true }}
     {{ $styles := resources.Get "css/styles.css" }}
     {{ $styles = $styles | resources.PostCSS $options }}
@@ -30,11 +34,18 @@
 
 </head>
 <body>
-	<div class="bg-slate-300 px-12">
+	<div class="bg-white px-12">
+		
+	<div class="fixed top-44 h-[60%] w-[40%] inset-y-0 right-0 z-0"> 
+	
+	<img src="" class="" />
+	</div>	
+	
 	{{ partial "header" . }}
 	{{ block "main" . }}{{ end }}
 	{{ partial "footer" . }}
 
+	
 	</div>
 </body>
 </html>
