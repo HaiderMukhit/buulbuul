@@ -2,15 +2,36 @@
 	<main>
 
 		<div class="mt-10 mb-10 px-12">
-			
-			We are Haider and Kas, artists from Kazakhstan who are both currently based in The Netherlands.
-			As friends, we have discussed many times our shared interest in Central Asian musical and artistic traditions, and have long intended to work together on exploring it – this is the first time we are combining our efforts as a duo in a more focused way. We hope our individual interests and knowledge can support and enrich this shared project in their own way.
-			Haider has a background in literature, philosophy, and graphic design. Combining graphic, sculptural and poetic mediums, Haider tries to bring a ‘melancholic dreamscape’ vision into his art. He often draws influences from historic Central Asian / Persianate poetry verses, folk myths and Sufi texts. He strives to express sensual and spiritual transformations, the concept of ‘beauty’ and its destruction through his art.
-			Kas’s background is in digital art and music composition, with a practice focused on connecting and (re)interpreting visual and sonic aspects of migrant and diasporic experiences. Kas’s current research interest is in synergising Central Asian musical rhythms and textures with approaches employed in electronic music and algorithmic composition.
-			
 
-		</div>
+			<div class="flex flex-col gap-y-10">
+			
+			<div class="">
+			We are Haider and Kas, artists from Kazakhstan who are both currently based in The Netherlands.</div>
+			
+			<div class="">
+			In Kazakh ‘bulbul’ means ‘nightingale’ and it derives from Persian word for the same bird. 
+			This bird is often part of the concept ‘gul-u bulbul’ (flower and nightingale), 
+			which refers to the flower gardens and the nightingales in the love poetry of the Persianate world. </div>
+
+			<div class="ml-10 mr-10 font-bold">
+			“The composition of ghazals about roses and nightingales has resulted only in the corruption of the morals 
+			of the young, leading them to booze and p*derasty.”
+			
+			Mīrzā Āqā-khān Kirmānī, 1895/1896 </div>
+
 		
+			<div class="">
+			Haider has a background in literature, philosophy, and graphic design. Combining graphic, sculptural and poetic mediums, 
+			Haider tries to bring a ‘melancholic dreamscape’ vision into his art. He often draws influences from 
+			historic Central Asian / Persianate poetry verses, folk myths and Sufi texts. He strives to express sensual 
+			and spiritual transformations, the concept of ‘beauty’ and its destruction through his art.
+			Kas’s background is in digital art and music composition, with a practice focused on connecting and 
+			(re)interpreting visual and sonic aspects of migrant and diasporic experiences. 
+			Kas’s current research interest is in synergising Central Asian musical rhythms and textures with approaches 
+			employed in electronic music and algorithmic composition.</div>
+
+		</div></div>
+
 		{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 		{{ range $paginator.Pages }}
 			{{ .Render "summary" }}

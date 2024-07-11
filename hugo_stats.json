@@ -21,7 +21,15 @@
     ],
     "classes": [
       "bg-slate-300",
+      "flex",
+      "flex-col",
+      "font-",
+      "font-bold",
+      "font-thin",
+      "gap-y-10",
       "mb-10",
+      "ml-10",
+      "mr-10",
       "mt-10",
       "px-12"
     ],
