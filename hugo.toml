@@ -1,4 +1,6 @@
 baseURL = "https://example.org"
+theme = "smol"
+
 
 
 disableKinds = ["page", "section", "taxonomy", "term"]
