@@ -1,8 +1,12 @@
 ---
         Title: "Posts"
         Layout: "list"
-        Type: "posts"
         Draft: "false"
+        type: posts
+        categories:
+                - default
+        tags:
+                - default
 
 ---
 
